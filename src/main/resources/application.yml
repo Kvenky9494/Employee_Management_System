@@ -5,9 +5,9 @@ spring:
   application:
     name: EmployeeManagementSystem
   datasource:
-    url: jdbc:postgresql://localhost:5432/employees
-    username: postgres
-    password: Postgres@
+    url: mysqlcreate.mysql.database.azure.com/employees
+    username: azureuser
+    password: Kvenky@12345
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
