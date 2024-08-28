@@ -5,9 +5,9 @@ spring:
   application:
     name: EmployeeManagementSystem
   datasource:
-    url: jdbc:mysql://localhost:3306/employee
-    username: root
-    password: root
+    url: jdbc:mysql://mysqlcreate.mysql.database.azure.com:3306/employee
+    username: azureuser
+    password: Kvenky@12345
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
