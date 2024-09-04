@@ -32,7 +32,7 @@ public class EmployeeController {
     }
 
     @PostMapping("/saveEmployees")
-    public String saveEmployee(@ModelAttribute Employees employees) throws EmployeeAlreadyExist {
+    public String saveEmployee(@RequestBody Employees employees) throws EmployeeAlreadyExist {
             employeeService.saveEmployee(employees);
         return "redirect:/employees";
     }

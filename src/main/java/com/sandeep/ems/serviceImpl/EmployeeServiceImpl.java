@@ -63,9 +63,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 
     @Override
     public Employees saveEmployee(Employees employees) throws EmployeeAlreadyExist {
-
                 return employeeRepository.save(employees);
-
     }
 
     @Override
