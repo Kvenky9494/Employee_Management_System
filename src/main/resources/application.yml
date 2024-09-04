@@ -5,9 +5,7 @@ spring:
     name: EmployeeManagementSystem
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: $(database-url)
-    username: $(database-username)
-    password: $(database-password)
+    password: Kvenky@12345
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
     hibernate:
